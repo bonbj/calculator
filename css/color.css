@@ -1,0 +1,9 @@
+:root {
+    --black-primary : #2a2a2a;
+    --black-primary-light : #434343;
+    --black-primary-shadow : #111111;
+
+    --white-high: #d6d6d6;
+    --white-medium: #818181;
+    --white-low: #585858;
+}
