@@ -2,7 +2,7 @@
 A Simple calculator
 Uma simples calculadora
 
-(Site)[https://bonbj.github.io/calculator/]
+[Site](https://bonbj.github.io/calculator/)
 
     en
 This calculator is for deep DOM studies.
