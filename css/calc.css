@@ -1,0 +1,127 @@
+button {
+    width: 85%;
+    height: 90%;
+    border: none;
+    background-color: var(--black-primary);
+    border-radius: 1rem;
+    box-shadow:  -27px -27px 54px var(--black-primary-shadow), 
+                27px 27px 54px var(--black-primary-light);
+    font-size: 2rem;
+    margin: auto;
+}
+
+button:hover {
+    background-color: var(--black-primary-light);
+}
+
+.calc {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.screen {
+    height: 10%;
+    width: 90%;
+    background: var(--white-low);
+}
+
+.number-grid {
+    height: 70%;
+    padding: 5%;
+    width: 90%;
+    display: grid;
+    grid-template:
+    'eraseAll root percentage erase'
+    'sevem eight nine divide'
+    'four five six multiplier'
+    'one two three minus'
+    'zero point equal sum';
+}
+
+.eraseAll {
+    grid-area: eraseAll;
+}
+
+.root {
+    grid-area: root;
+}
+
+.percentage {
+    grid-area: percentage;
+}
+
+.percentage {
+    grid-area: percentage;
+}
+
+.erase {
+    grid-area: erase;
+}
+
+.sevem {
+    grid-area: sevem;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}
+
+.divide {
+    grid-area: divide;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.multiplier {
+    grid-area: multiplier;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.minus {
+    grid-area: minus;
+}
+
+.zero {
+    grid-area: zero;
+}
+
+.point {
+    grid-area: point;
+}
+
+.sum {
+    grid-area: sum;
+}
+
+.equal {
+    grid-area: equal;
+}
