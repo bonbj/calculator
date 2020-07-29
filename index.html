@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
-</head>
-<body>
-    <main class="calc container">
-        <section class="container screen"></section>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+    </head>
+    <body>
+        <main class="calc container">
+            <div id="error" class="error">Error</div>
+            <section class="container screen" id="screen"></section>
         <section class="number-grid">
-            <button class="eraseAll">C</button>
-            <button class="root">√</button>
-            <button class="percentage">%</button>
-            <button class="erase">&#60;</button>
-            <button class="sevem">7</button>
-            <button class="eight">8</button>
-            <button class="nine">9</button>
-            <button class="divide">/</button>
-            <button class="four">9</button>
-            <button class="five">5</button>
-            <button class="six">6</button>
-            <button class="multiplier">X</button>
-            <button class="one">1</button>
-            <button class="two">2</button>
-            <button class="three">3</button>
-            <button class="minus">-</button>
-            <button class="zero">0</button>
-            <button class="point">.</button>
-            <button class="equal">=</button>
-            <button class="sum">+</button>
+            <button class="eraseAll" id="eraseAll">C</button>
+            <button class="root" id="root">√</button>
+            <button class="percentage" id="percentage">%</button>
+            <button class="erase" id="erase">&#60;</button>
+            <button class="sevem" id="sevem">7</button>
+            <button class="eight" id="eight">8</button>
+            <button class="nine" id="nine">9</button>
+            <button class="divide" id="divide">/</button>
+            <button class="four" id="four">4</button>
+            <button class="five" id="five">5</button>
+            <button class="six" id="six">6</button>
+            <button class="multiplier" id="multiplier">X</button>
+            <button class="one" id="one">1</button>
+            <button class="two" id="two">2</button>
+            <button class="three" id="three">3</button>
+            <button class="minus" id="minus">-</button>
+            <button class="zero" id="zero">0</button>
+            <button class="point" id="point">.</button>
+            <button class="equal" id="equal">=</button>
+            <button class="sum" id="sum">+</button>
         </section>
     </main>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>

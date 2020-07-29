@@ -25,8 +25,17 @@ button:hover {
 
 .screen {
     height: 10%;
-    width: 90%;
+    width: 82%;
     background: var(--white-low);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.error {
+    position: relative;
+    top: 10%;
 }
 
 .number-grid {
