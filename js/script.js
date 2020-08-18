@@ -84,6 +84,9 @@ $("#erase").click(() => {
 });
 
 $('[name = "operator"]').click((e) => {
+    if(operation !== undefined && secondValue !== undefined){
+        equal();
+    }
     operation = e.target.value;
     writeScreen();
 });
@@ -106,6 +109,10 @@ $('[name = "number"]').click((e) => {
 });
 
 $('#equal').click(() => {
+    equal();
+});
+
+function equal(){
     const result = eval(`${primaryValue} ${operation} ${secondValue}`);
     if(result === Infinity){
         errorEvent();
@@ -115,4 +122,4 @@ $('#equal').click(() => {
         operation = undefined;
         secondValue = undefined;
     }
-});
+}
